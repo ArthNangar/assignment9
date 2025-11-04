@@ -60,7 +60,6 @@ jobs:
         uses: aquasecurity/trivy-action@master
         with:
           image-ref: 'app:test'
-          ignore-unfixed: true
           format: 'table'
           exit-code: '0'
           ignore-unfixed: true
